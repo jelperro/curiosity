@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <script src="javascript.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It's Interesante?</title>
 </head>
 <body>
-    <header>
-        <h1 class="title">It's Interesante?</h1>
-        <h2>Descubre i Aprende...</h2>
-        <p id="container"></p>
+    <header class="ola">
+        <h1 id="title">It's Interesante?</h1>
+        <h2 id="subtitle">Descubre i Aprende...</h2>
+        
     </header>
     <section>
         <button onclick="elector()">Curiosidad</button>
     </section>
     
-    <section>
+    <section class="botones">
         <button onclick="idiomaEs()">Español</button>
-        <button>Frances</button>
+        <button onclick="idiomaFR()">Frances</button>
         <button onclick="idiomaIn()">Ingles</button>
-        <button>Aleman</button>
+        <button onclick="idiomaAL()">Aleman</button>
     </section>
+
+    <section>
+        <p id="container"></p>
+
+    </section>
+
+    <footer>
+
+    </footer>
     
 
 </body>

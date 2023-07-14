@@ -1,0 +1,22 @@
+.ola{
+    background-color: #1B263B;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+#title{
+    font-size: 90px;
+    text-align: center;
+}
+
+.botones{
+    font-family: Caprisamo , Arial ;
+}
+*{
+    margin: 0px;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Lilita One', cursive; 
+font-style: normal;
+
+
+}
