@@ -1,7 +1,23 @@
-.ola{
-    background-color: #1B263B;
-    padding-top: 50px;
-    padding-bottom: 90px;
+
+.gradient-bg-animation{
+    height:300px;
+    padding-top: 90px;
+    background: rgb(189, 189, 189);
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(208, 255, 0) 0%, rgb(0, 252, 0) 48%, rgb(25, 0, 255) 100%);
+    background-size: 300% 100%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 #title{
@@ -9,8 +25,49 @@
     text-align: center;
 }
 
-.botones{
+#subtitle{
+    text-align: center;
+}
+.bidi{
     font-family: Caprisamo , Arial ;
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    border-radius: 0.8rem;
+    margin-top: 90px;
+     
+}
+
+.final{
+    background-color: black;
+    padding-top: 3.5rem;
+}
+#contacto{
+    color: white;
+    text-decoration: none;
+}
+#arr{
+    color: white;
+    float: right;
+}
+
+#bcur{
+    width: 160px;
+    height: 70px;
+    border-radius: 90px;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-left: 34rem;
+    margin-top: 6rem;
+    border: 2px, solid black;
+    box-shadow: none;
+    outline: none;
+    background-color: antiquewhite;
+}
+#container{
+padding: 40px;
+color: black;
+font-size: 3rem
 }
 *{
     margin: 0px;

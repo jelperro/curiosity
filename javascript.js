@@ -1,4 +1,4 @@
-var idioma = ""
+var idioma = "Español"
 var datosES = ["Los aguacates son una fruta, no una verdura",
 "La Torre Eiffel puede ser 15 cm más alta durante el verano",
 "La tripofobia es el miedo a los agujeros muy juntos",
