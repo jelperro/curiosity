@@ -69,36 +69,45 @@ function idiomaEs(){
     idioma = "Español";
     let title = document.getElementById("title")
     let subtitle = document.getElementById("subtitle")
+    let boton = document.getElementById("bcur")
     
     title.innerHTML = ("Es interesante")
     subtitle.innerHTML = ("Descubre I aprende")
+    boton.innerHTML = ("Curiosidad")
 }
 
 function idiomaIn(){
     idioma = "English";
     let title = document.getElementById("title")
     let subtitle = document.getElementById("subtitle")
+    let boton = document.getElementById("bcur")
     
     title.innerHTML = ("It's Interesant")
     subtitle.innerHTML = ("Discover and")
+    boton.innerHTML = ("Curiosity")
 }
 
 function idiomaFR(){
     idioma = "Frances";
     let title = document.getElementById("title")
     let subtitle = document.getElementById("subtitle")
+    let boton = document.getElementById("bcur")
     
     title.innerHTML = ("C'est intéressant ?")
     subtitle.innerHTML = ("Découvre et apprends")
+    boton.innerHTML = ("Curiosité")
 }
 
 function idiomaAL(){
     idioma = "Aleman";
     let title = document.getElementById("title")
     let subtitle = document.getElementById("subtitle")
+    let boton = document.getElementById("bcur")
     
     title.innerHTML = ("Ist das interessant?")
     subtitle.innerHTML = ("Entdecke und lerne")
+    boton.innerHTML = ("Neugier")
+    
 }
 
 
